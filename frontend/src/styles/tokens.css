@@ -1,0 +1,64 @@
+/* ---------------------------------------------------------------
+   DrainGuard AI — design tokens
+   Direction fixed by AI_APPLICATION_SPEC.md §59: deep background,
+   cyan/blue technology accent, green/amber/red reserved strictly
+   for severity so colour always carries meaning.
+   --------------------------------------------------------------- */
+:root {
+  /* Ground */
+  --ground:        #070C15;
+  --surface:       #131C2B;
+  --surface-sunk:  #0B1220;
+  --surface-raised:#16263C;
+  --line:          #24324A;
+  --line-soft:     #1A2537;
+
+  /* Ink */
+  --ink:           #E6EDF7;
+  --ink-dim:       #8FA3BF;
+  --ink-faint:     #5C6E8A;
+
+  /* Accent — technology / neutral data */
+  --accent:        #38BDF8;
+  --accent-soft:   #16263C;
+  --accent-alt:    #A78BFA; /* second data series only */
+
+  /* Severity — never used decoratively */
+  --ok:            #34D399;
+  --ok-bg:         #0F2A20;
+  --ok-line:       #1C5A44;
+
+  --warn:          #FBBF24;
+  --warn-bg:       #2B1E08;
+  --warn-line:     #6B4E12;
+
+  --alarm:         #FB923C;
+  --alarm-bg:      #2A1508;
+  --alarm-line:    #9A5B1B;
+
+  --critical:      #F87171;
+  --critical-bg:   #2B1112;
+  --critical-line: #7F2225;
+
+  /* Type */
+  --font-display: 'Space Grotesk', 'Segoe UI', system-ui, sans-serif;
+  --font-body:    'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+  --font-mono:    'IBM Plex Mono', 'SF Mono', Menlo, monospace;
+
+  --step--1: 0.6875rem; /* 11px  meta */
+  --step-0:  0.8125rem; /* 13px  body */
+  --step-1:  1rem;      /* 16px  subhead */
+  --step-2:  1.375rem;  /* 22px  section */
+  --step-3:  2.125rem;  /* 34px  metric */
+
+  /* Space — 4px base */
+  --s1: 4px;  --s2: 8px;  --s3: 12px; --s4: 16px;
+  --s5: 20px; --s6: 26px; --s7: 34px;
+
+  /* Radii — three steps only, tied to hierarchy */
+  --r-chip:  10px;
+  --r-tile:  16px;
+  --r-panel: 20px;
+
+  --focus: 0 0 0 2px var(--ground), 0 0 0 4px var(--accent);
+}
