@@ -6,6 +6,8 @@ HIDPA is an AI-enabled IoT platform for monitoring drainage systems, detecting p
 
 The system combines an **ESP32-based drainage monitoring node**, **Blynk IoT telemetry**, a **FastAPI backend**, and a **React/Vite dashboard**.
 
+![HIDPA dashboard](https://github.com/Kash1444/HIDPA/blob/aaa38f606d63c580e2faa4ab29cf2fc6bf49b8c0/Photos%26Videos/Screenshot%202026-09-20%20182435.png)
+
 > **HIDPA** is the new development repository for the DrainGuard AI system. The previous project repository remains separate.
 
 ---
